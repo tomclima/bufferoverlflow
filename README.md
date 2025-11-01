@@ -9,4 +9,5 @@ Scripts usados durante apresentação introdutória sobre buffer overflows
 gcc -fno-stack-protector -fno-pie <scriptname>
 ```
 `-fno-stack-protector` -> compila sem os canários
+
 `-fno-pie` -> compila sem aleatorização de endereços
